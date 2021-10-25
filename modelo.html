@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Pace</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="jumbotron text-center bg-dark"><h1>CALCULADORA DE PACE</h1></div>
+    </header>
+
+    <div class="container">
+        <div>
+            <label>Nome:</label><br>
+
+            <div class="input">
+                <input id="nome" type="text" class="form-control" name="nome" required="required"></input><br>
+            </div>
+
+        </div><br>
+
+            <label>Peso(kg):</label><br>
+            <div class="input">
+                <input id="peso" type="number" class="form-control" name="peso" required="required"></input><br>
+            </div>
+
+        <div><br>
+
+            <label>Distância(Km):</label><br>
+            <div class="input">
+                <input id="distancia" type="number" class="form-control" name="distancia" required="required"></input><br>
+            </div>
+            <label>Tempo</label><br>
+            <div class="input">
+                <input id="tempo" type="time" step="1" class="form-control" name="tempo" required="required"></input><br>
+
+        </div>
+
+        <div class="button" style="text-align: center;">
+            <button id="calcular" class="btn btn-dark btn-lg">Calcular</button>
+        </div>
+
+    </div><br>
+    <div class="container" id="resultado">
+    </div>
+    <footer> Atenção! Estes resultados devem ser interpretador por um(a) profissional de educação física.
+    <script src="script.js">
+
+</script>
+</body>
+</html>
